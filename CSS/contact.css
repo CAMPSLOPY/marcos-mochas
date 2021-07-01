@@ -1,7 +1,22 @@
-body {
+
+/* universal styling of the contact page */
+* {
     background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#headerC1 {
-    align-content: center;
+body{
+    min-height: 100vh;
+}
+
+/* styling the Form */
+
+
+
+/* styling for hours table */
+
+table {
+    
 }

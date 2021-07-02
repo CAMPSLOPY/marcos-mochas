@@ -18,5 +18,19 @@ body{
 /* styling for hours table */
 
 table {
-    
+
+}
+
+
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+.contact-footer {
+    text-align: center;
+
+}
+
+.copyright {
+    text-align: center;
 }

@@ -1,0 +1,36 @@
+
+/* universal styling of the contact page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f38ba036;
+}
+
+/* styling the Form */
+
+
+
+/* styling for hours table */
+
+table {
+
+}
+
+
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+.contact-footer {
+    
+
+}
+
+.copyright {
+   
+}

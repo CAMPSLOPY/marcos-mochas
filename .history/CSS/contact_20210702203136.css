@@ -1,0 +1,141 @@
+/* universal styling of the contact page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+}
+
+html {
+  font-size: 62%;
+}
+
+footer {
+  min-height: 10vh;
+  background: black;
+}
+
+footer ul li a {
+  color: white;
+}
+
+header {
+  text-align: center;
+  min-height: 10vh;
+  color: white;
+}
+header h1{
+    padding: 1rem 0;
+    margin-top: 1rem 0;
+}
+.header-table-content {
+  padding: 2rem;
+  cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+table tr,th {
+  font-size: 2rem;
+}
+table tr td{
+    margin: 2rem;
+}
+/* styling the Form */
+
+.form-content {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 2 1 40rem;
+  color: white;
+  margin: auto;
+}
+.form-content-text {
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+
+.form-content-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact-form {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  background: ;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.contact-form h2 {
+  font-size: 2rem;
+}
+.form-control {
+  margin: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.form-control label {
+  font-size: 2rem;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 0px;
+  color: black;
+  color: #f1356d;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 15px;
+  outline: none;
+}
+
+.btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  background: #f1356d;
+}
+
+/* styling for hours table */
+
+table {
+    width: 100%;
+    
+}
+table tr th:hover{
+    background-color: #f1356d;
+    transition: 0.2s ease-in;
+}
+
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+.contact-footer {
+  color: black;
+}
+
+.copyright {
+  color: black;
+}

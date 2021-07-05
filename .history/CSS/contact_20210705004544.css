@@ -1,0 +1,196 @@
+/* universal styling of the contact page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/* Header Styling */
+header {
+  text-align: center;
+  min-height: 10vh;
+  color: black;
+}
+header h1 {
+  padding: 1rem 0;
+  margin-top: 1rem 0;
+}
+.header-table-content {
+  padding: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 90%;
+  margin: auto;
+}
+
+/* styling the Form */
+
+.form-content {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 2 1 40rem;
+  color: white;
+  margin: auto;
+}
+.form-content-text {
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+
+.form-content-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact-form {
+  width: 40%;
+  position: relative;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("/pexels-elvis-2528118.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.contact-form h2 {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  color: #f1356d;
+  position: relative;
+}
+.form-control {
+  margin: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.form-control label {
+  font-size: 2rem;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 0px;
+  color: #f1356d;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 15px;
+  outline: none;
+}
+
+.btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  position: relative;
+  bottom: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  background: #f1356d;
+}
+.btn:hover {
+  color: black;
+  transition: 0.2s ease-in;
+}
+/* styling for hours table */
+table tr,
+th {
+  font-size: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+table {
+  width: 100%;
+}
+table tr th:hover {
+  background-color: #f1356d;
+  transition: 0.2s ease-in;
+  color: white;
+}
+.tr-rule {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+footer {
+  min-height: 10vh;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+footer ul li {
+  padding: 1rem 0rem;
+  margin: 1rem auto;
+}
+footer ul li a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.contact-footer {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 50%;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.315);
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* MOBILE RESPONSIVESNESS */
+
+@media screen and (max-width: 932px) {
+    /* removed the current header here  */
+  header {
+    display: none;
+  }
+  /* styling the form */
+  .form-content-text{
+      display: none;
+  }
+  .form-content{
+      
+  }
+  .contact-form {
+      width: 100%;
+      height: 100%;
+  }
+
+  .btn{
+      width
+  }
+}

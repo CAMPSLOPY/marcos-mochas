@@ -1,0 +1,70 @@
+
+/* universal styling of the contact page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f38ba0bb;
+}
+
+html{
+    font-size: 62%;
+}
+
+footer{
+    min-height: 20vh;
+    background-color: black;
+}
+
+footer ul li a{
+    color: white;
+}
+
+header{
+    text-align: center;
+    min-height: 10vh;
+    
+}
+
+
+/* styling the Form */
+main{
+    min-height: 70vh;
+    display: flex;
+    width: 100%;
+}
+.header-table-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content{
+   text-align: center;
+   width: 100%;
+}
+
+/* styling for hours table */
+
+table {
+
+}
+
+
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+.contact-footer {
+    
+    color: white;
+}
+
+.copyright {
+    color: white;
+}

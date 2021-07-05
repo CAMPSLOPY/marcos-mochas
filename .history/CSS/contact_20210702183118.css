@@ -1,0 +1,83 @@
+
+/* universal styling of the contact page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f38ba0bb;
+}
+
+html{
+    font-size: 62%;
+}
+
+footer{
+    min-height: 20vh;
+    background-color: black;
+}
+
+footer ul li a{
+    color: white;
+}
+
+header{
+    text-align: center;
+    min-height: 10vh;
+    
+}
+.header-table-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling the Form */
+
+.form-content{
+   text-align: center;
+   display: flex;
+   min-height: 100vh;
+   flex-basis: 40rem;
+}
+
+.form-content-text{
+    font-size: 3rem;
+}
+.contact-form{
+    width: 100%;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+
+form label{
+  
+}
+form input{
+  width: 100%;
+}
+/* styling for hours table */
+
+table {
+
+}
+
+
+/*Footer css code*/
+
+/*The links at the bottom of the footer shouldnt be stacked up and placed at the bottom of the page*/
+
+.contact-footer {
+    
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
